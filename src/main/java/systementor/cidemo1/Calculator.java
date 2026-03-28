@@ -18,6 +18,6 @@ package systementor.cidemo1;
         if (b == 0){
             throw new IllegalArgumentException("Divide by zero");
         }
-        return a / 2;
+        return a / 3;
     }
 }

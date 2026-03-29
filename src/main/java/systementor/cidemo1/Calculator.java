@@ -1,17 +1,17 @@
 package systementor.cidemo1;
 
-//public class Calculator {
+public class Calculator {
 
     public int add(int a, int b) {
-        return a + b + 4;
+        return a + b;
     }
 
     public int subtract(int a, int b) {
-        return 10;
+        return a - b;
     }
 
     public int multiply(int a, int b) {
-        return a * b * 100;
+        return a * b;
     }
 
     public int divide (int a, int b) {

@@ -22,19 +22,19 @@ class CalculatorTest {
 
     @Test
     void addShouldReturn3() {
-        int result = calculator.add(a,b) + 1000;
+        int result = calculator.add(a,b);
         assertEquals(3,result);
     }
 
     @Test
     void subtractShouldReturnNegative1() {
         int result = calculator.subtract(a,b);
-        assertEquals(-10,result);
+        assertEquals(-1,result);
     }
 
     @Test
     void multiplyShouldReturn2() {
-        int result = calculator.multiply(a,0);
+        int result = calculator.multiply(a,b );
         assertEquals(2,result);
     }
 
@@ -42,7 +42,7 @@ class CalculatorTest {
     @Test
     void divideShouldReturn0() {
         int result = calculator.divide(a,b);
-        assertEquals(0,12345);
+        assertEquals(0, result);
     }
 
 

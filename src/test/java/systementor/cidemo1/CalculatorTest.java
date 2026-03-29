@@ -11,7 +11,7 @@ class CalculatorTest {
 
     private Calculator calculator;
 
-    private final int a = 0;
+    private final int a = 1;
     private final int b = 2;
 
 
